@@ -1,0 +1,51 @@
+.log{
+    background-image: url('../../../img/img3.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.forms{
+    /* color:orangered; */
+    position: relative;
+    top: 19%;
+}
+#main{
+    backdrop-filter: blur(1px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    flex-flow: column;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    /* align-items: center; */
+}
+#main input{
+    width: 85%;
+}
+#main select{
+    width: 85%;
+}
+label{
+    font-weight: bold;
+}
+#btn{
+    background-color: orange;
+}
+
+@media (max-width:600px) {
+    #main{
+        width: 90%;
+    }
+    #main input{
+        width: 70%;
+    }
+    #main select{
+        width: 70%;
+    }
+}

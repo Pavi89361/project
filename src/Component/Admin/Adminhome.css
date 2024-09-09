@@ -1,0 +1,9 @@
+.admin-home-page{
+    margin: 100px auto auto auto;
+    height: 200px;
+    width: 500px;
+    color: black;
+}
+.admin-home-page h1{
+    padding: 50px;
+}

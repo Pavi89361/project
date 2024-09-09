@@ -1,0 +1,23 @@
+.Feesdetails{
+    position: relative;
+    top: 30px;
+    bottom: 50px;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+#trfs{
+    position: relative;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(5,minmax(250px, 1fr));
+}
+
+#trfs td{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.Feesdetails::-webkit-scrollbar{
+    display: none;
+}

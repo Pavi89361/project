@@ -1,0 +1,40 @@
+.Allproject{
+    position: relative;
+    top: 30px;
+    bottom: 50px;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+#ctrp{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(8,minmax(250px, 1fr));
+    text-align: center;
+}
+
+#ctrp td,th{
+    display: flex;
+    justify-content: center; 
+     align-items: center; 
+}
+.Allproject::-webkit-scrollbar{
+    display: none;
+}
+
+.btnal:nth-child(1){
+    color: white;
+    background-color: red;
+}
+.btnal:nth-child(1):hover{
+    color: white;
+    background-color: red;
+}
+.btnal:nth-child(2){
+    color: white;
+    background-color:green;
+}
+.btnal:nth-child(2):hover{
+    color: white;
+    background-color:green;
+}

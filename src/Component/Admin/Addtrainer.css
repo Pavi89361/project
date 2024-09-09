@@ -1,0 +1,96 @@
+.add-trainers {
+    position: relative;
+}
+
+.add-trainers h2 {
+    margin: 10px 0 0 50px;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+#add-trainers-main-menu {
+    /* height: 100%; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-a-trainers {
+    height: 430px;
+    width: 900px;
+    margin: 4% 0 0 0;
+}
+
+.trainers-form {
+    margin: 3% 0% 3% 6%;
+    height: 400px;
+    width: 800px;
+}
+
+.trainers-form label {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.trainers-form input,
+.form-select {
+    background: transparent;
+    height: 40px;
+    /* width: 100px; */
+    border: none;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    border-radius: none;
+    font-size: 18px;
+}
+
+.trainers-form input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    box-shadow: none;
+    border-radius: none;
+}
+
+.trainers-form .form-select:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    box-shadow: none;
+    border-radius: none;
+}
+
+.trainers-form option {
+    color: white;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.779);
+}
+
+
+.btntra:nth-child(1) {
+    height: 45px;
+    margin: 35px 20px 0px 0px;
+    width: 100px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+}
+.btntra:nth-child(1):hover{
+    color: white;
+    background-color: red;
+}
+.btntra:nth-child(2) {
+    height: 45px;
+    margin: 35px 20px 0px 0px;
+    width: 100px;
+    font-size: 18px;
+    color: white;
+    background-color:green;
+}
+.btntra:nth-child(2):hover{
+    color: white;
+    background-color:green;
+}

@@ -1,0 +1,23 @@
+.Payment{
+    position: relative;
+    top: 30px;
+    bottom: 50px;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+}
+#trpm{
+    position: relative;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(6,minmax(250px, 1fr));
+}
+
+#trpm td{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.Payment::-webkit-scrollbar{
+    display: none;
+}

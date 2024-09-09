@@ -1,0 +1,107 @@
+.dashboard{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.nav-part{
+  height: 80px;
+}
+
+.nav-part input {
+  width: 500px;
+  height: 50px;
+}
+
+.nav-part img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+.left-part-student{
+  width: 300px;
+  height: 100%;
+}
+
+.left-part-student .menus {
+  top: 80px;
+  position: absolute;
+  height: 613px;
+  width: 280px;
+  left: 0;
+}
+
+.left-part-student .menus .menus-1 {
+  position: fixed;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.left-part-student .menus .menus-1::-webkit-scrollbar {
+  display: none;
+}
+
+.menus-header {
+  margin-left: 20px;
+}
+
+.menus-body {
+  margin-left: 40px;
+}
+
+.menus-body .nav-item {
+  width: 200px;
+  margin-top: 7px;
+}
+
+.menus-body .nav-item:hover {
+  background-color: #0d6efd;
+  border-radius: 10px;
+}
+
+.menus-body .nav-item svg {
+  margin-left: 9px;
+  margin-top: 11px;
+  position: absolute;
+}
+
+.menus-body .nav-item a {
+  margin-left:40px;
+}
+
+.left-part-student .menus .menus-2 {
+  position: fixed;
+  margin-top: 550px;
+  margin-left: 25px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+ .menus .menus-2 svg {
+  position: absolute;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+ 
+.menus .menus-2 a{
+  /* position: absolute; */
+  margin-left: 30px;
+  text-decoration: none;
+  color: black;
+}
+.right-part-Student{
+  margin-top: 100px;
+}
+@media screen and (max-width:576px) {
+  .dashboard{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .nav-part{
+    height: 100px;
+    width: 100%;
+  
+  }
+  
+}

@@ -1,0 +1,34 @@
+.view{
+    height: 500px;
+    width: 100%;
+
+}
+#trsv{
+    display: grid;
+    grid-template-columns: repeat(12,minmax(250px, 1fr));
+    text-align: center;
+}
+#trsv td,th{
+    display: flex;
+    justify-content: center; 
+     align-items: center; 
+}
+.view::-webkit-scrollbar{
+    display: none;
+}
+.btntr:nth-child(1){
+    color: white;
+    background-color: red;
+}
+.btntr:nth-child(1):hover{
+    color: white;
+    background-color: red;
+}
+.btntr:nth-child(2){
+    color: white;
+    background-color:green;
+}
+.btntr:nth-child(2):hover{
+    color: white;
+    background-color:green;
+}

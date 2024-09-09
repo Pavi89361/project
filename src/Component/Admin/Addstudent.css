@@ -1,0 +1,90 @@
+.add-home {
+    position: relative;
+}
+.add-home h2 {
+    margin: 5px 0 0 50px;
+    font-size: 34px;
+    font-weight: 500;
+}
+#main-menu-add {
+    /* height: 100%; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-a-student {
+    height: 480px;
+    width: 900px;
+    margin: 2% 0 0 0;
+}
+
+.student-form {
+    margin: 2% 0% 2% 5%;
+    height: 400px;
+    width: 800px;
+}
+.student-form label{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.student-form input,
+.form-select{
+    background: transparent;
+    height: 30px;
+    /* width: 100px; */
+    border: none;
+    margin-bottom: 5px;
+    border-bottom: 2px solid black;
+    border-radius: none;
+    font-size: 18px;
+}
+
+.student-form input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    box-shadow: none;
+    border-radius: none;
+}
+.student-form .form-select:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    box-shadow: none;
+    border-radius: none;
+}
+.student-form  option{
+    color: white;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.779);
+}
+
+
+.student-form .btn {
+    height: 40px;
+    margin-top: 15px;
+    /* margin-left:calc(30% - 50px); */
+    width: 200px; 
+    font-size: 18px;
+
+}
+.btnas:nth-child(1){
+    color: white;
+    background-color: red;
+}
+.btnas:nth-child(1):hover{
+    color: white;
+    background-color: red;
+}
+.btnas:nth-child(2){
+    color: white;
+    background-color: green;
+}
+.btnas:nth-child(2):hover{
+    color: white;
+    background-color: green;
+}

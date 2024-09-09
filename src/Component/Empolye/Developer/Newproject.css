@@ -1,0 +1,78 @@
+.New-project{
+    position: relative;
+}
+.New-project h2 {
+    margin: 10px 0 0 50px;
+    font-size: 34px;
+    font-weight: 500;
+}
+#New-project-main-menu {
+    /* height: 100%; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-a-New-project{
+    height: 350px;
+    width: 900px;
+    margin: 4% 0 0 0;
+}
+
+.New-project-form {
+    margin: 3% 0% 3% 6%;
+    height: 330px;
+    width: 800px;
+}
+.New-project-form label{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.New-project-form input,
+.form-select{
+    background: transparent;
+    height: 40px;
+    /* width: 100px; */
+    border: none;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    border-radius: none;
+    font-size: 18px;
+}
+
+.New-project-form input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    box-shadow: none;
+    border-radius: none;
+}
+.New-project-form .form-select:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+    box-shadow: none;
+    border-radius: none;
+}
+.New-project-form option{
+    color: white;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.779);
+}
+
+
+.New-project-form .btnsn {
+    height: 45px;
+    margin-top: 35px;
+    width: 100px; 
+    background-color: black;
+    font-size: 18px;
+
+}
+.New-project-form .btnsn:hover{
+    color: white;
+    background-color: black;
+}

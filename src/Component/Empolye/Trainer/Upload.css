@@ -1,0 +1,40 @@
+.upload-video {
+    width: 100%;
+    height: 100%;
+}
+
+.upload-video .upload-video-form {
+    height: 300px;
+    width: 800px;
+    margin: 50px auto auto auto;
+    padding: 30px;
+}
+
+.upload-video .upload-video-form label {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 7px 0px;
+}
+
+.upload-video .upload-video-form input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    box-shadow: none;
+}
+
+.upload-video .upload-video-form input:focus{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    box-shadow: none;
+}
+
+
+.upload-video .upload-video-form .btn-1 {
+    float: right;
+    width: 200px;
+    background-color: black;
+    color: white;
+    margin: 30px 0 0 0;
+}

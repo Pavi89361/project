@@ -1,0 +1,123 @@
+.developer-body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.developer-vertical {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    background-color: blue;
+}
+
+.developer-vertical-menu-zero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.developer-vertical-menu-zero img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.developer-vertical-menu-zero h5,
+h6 {
+    margin: 10px 0;
+}
+
+.developer-vertical-menu-one {
+    margin-top: 30px;
+    height: 200px;
+}
+
+.developer-vertical-menu-body .nav-item {
+    margin: 5px 30px;
+    border-radius: 10px;
+    width: 200px;
+    /* position: ; */
+}
+
+.developer-vertical-menu-body .nav-item svg {
+    position: absolute;
+    margin: 10px 10px;
+}
+
+.developer-vertical-menu-body .nav-item a {
+    margin-left: 45px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.developer-vertical-menu-body .nav-item:hover {
+    background-color: #0d6efd;
+}
+
+.developer-vertical-menu-two {
+    position: relative;
+    margin: 85px 35px 0 25px;
+    width: 200px;
+    height: 42px;
+    border-radius: 10px;
+}
+
+.developer-vertical-menu-two svg {
+    margin: 7px 0px 10px 20px;
+}
+
+.developer-vertical-menu-two a {
+    margin: 19px 0px 0 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.developer-vertical-menu-two:hover {
+    background-color: #0d6efd;
+}
+
+/* .trainer-right-part{
+    position: relative;
+    height: 100%;
+    width: 70%;
+  } */
+.developer-home {
+    margin-left: 300px;
+    height: 70px;
+    position: fixed;
+}
+
+.developer-home .developer-header-part input {
+    height: 60px;
+}
+
+.developer-right-part {
+    margin-left: 280px;
+    position: relative;
+    width: 75%;
+    height: 100%;
+}
+
+.developer-bottom {
+    margin-left: 300px;
+}
+
+.developer-bottom .developer-footer-part {
+    height: 80px;
+}
+
+.developer-bottom .developer-footer-part .developer-footer-bottom {
+    margin: 0 350px;
+}
+
+.developer-mid {
+    margin-top: 130px;
+    margin-left: 80px;
+}
