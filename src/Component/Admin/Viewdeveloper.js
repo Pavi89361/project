@@ -46,10 +46,10 @@ export default function Viewdeveloper() {
                       <td>
                         <a className="btn btnvd btn-primary"
                           href={'/devupdate/' + dat._id}>Edit</a>
-                        <a  href="#" className='btn btnvd' onClick={() => {
+                        <button className='btn btnvd' onClick={() => {
                           axios.delete('http://localhost:1224/developer/delete/' + dat._id)
                             .then(alert("deleted"))
-                        }}>Delete</a>
+                        }}>Delete</button>
                       </td>
                     </tr>
                   )

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Viewtrainer.css';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 
 export default function Viewtrainer() {
@@ -49,10 +50,10 @@ export default function Viewtrainer() {
                       <td>
                         <a className="btn btntr btn-primary"
                           href={'/Update/' + dat._id}>Edit</a>
-                        <a href="#" className='btn btntr' onClick={() => {
+                        <Link className='btn btntr' onClick={() => {
                           axios.delete('http://localhost:1224/trainer/delete/' + dat._id)
                             .then(alert("deleted"))
-                        }}>Delete</a>
+                        }}>Delete</Link>
                       </td>
                     </tr>
                   )

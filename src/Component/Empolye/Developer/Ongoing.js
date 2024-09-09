@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Ongoing.css';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 
 export default function Ongoing() {
@@ -46,8 +47,8 @@ export default function Ongoing() {
                                             <td>{itemdat.Domain}</td>
                                             <td>{itemdat.Status}</td>
                                             <td>
-                                                <a href='#' className='btn btns'>Edit</a>
-                                                <a href='#' className='btn btns'>Delete</a>
+                                                <Link className='btn btns'>Edit</Link>
+                                                <Link className='btn btns'>Delete</Link>
                                             </td>
                                         </tr>
                                     )

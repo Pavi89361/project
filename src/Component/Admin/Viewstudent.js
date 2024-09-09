@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Viewstudent.css';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export default function ViewStudent() {
   const [view, setview] = useState([]);
@@ -53,10 +54,10 @@ export default function ViewStudent() {
                       <td>
                         <a className="btn btntr btn-primary"
                           href={'/Update/' + dat._id}>Edit</a>
-                        <a href="#" className='btn btntr' onClick={() => {
+                        <Link className='btn btntr' onClick={() => {
                           axios.delete('http://localhost:1224/student/delete/' + dat._id)
                             .then(alert("deleted"))
-                        }}>Delete</a>
+                        }}>Delete</Link>
                       </td>
                     </tr>
                   )

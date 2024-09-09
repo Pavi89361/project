@@ -1,15 +1,15 @@
 import React from 'react';
 import './Main.css';
 import { Link } from 'react-router-dom';
-import Html from "./HTML5_Badge.svg.png";
-import Css from './CSS3_logo.svg.png';
-import Bootstrap from './bootstrap-logo.png';
-import js from './javascript-logo.png';
-import react from './React.webp';
-import nodejs from './node-js.png';
-import Mongodb from './mongodb.png';
-import python from './Python.svg.png';
-import java from './java_logo.png';
+// import Html from "./HTML5_Badge.svg.png";
+// import Css from './CSS3_logo.svg.png';
+// import Bootstrap from './bootstrap-logo.png';
+// import js from './javascript-logo.png';
+// import react from './React.webp';
+// import nodejs from './node-js.png';
+// import Mongodb from './mongodb.png';
+// import python from './Python.svg.png';
+// import java from './java_logo.png';
 import Facebook from 'bootstrap-icons/icons/facebook.svg';
 import Whatsapp from 'bootstrap-icons/icons/whatsapp.svg';
 import Twitter from 'bootstrap-icons/icons/twitter-x.svg';
@@ -21,7 +21,7 @@ export default function Main() {
             <div className='fixed-top navigations'>
                 <nav class="navbar bg-primary navbar-expand-lg">
                     <div class="container-fluid">
-                        <a class="navbar-brand fs-3" href="#">XYZ institute</a>
+                        <Link class="navbar-brand fs-3">XYZ institute</Link>
                         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
