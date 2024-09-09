@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import './Update.css';
-import { useNavigate, useParams } from 'react-router-dom';
+// import { useNavigate, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 
 export default function Update() {
@@ -17,7 +18,7 @@ export default function Update() {
 
 
     const { id } = useParams();
-    const navi = useNavigate();
+    // const navi = useNavigate();
 
     useEffect(() => {
         axios.get('http://localhost:2500/trainer/listAll/' + id)
@@ -32,7 +33,7 @@ export default function Update() {
                 setPassword(items.data.Password)
             })
             .catch(err => console.log(err))
-    }, [])
+    }, [id])
 
     function Edit() {
         axios.put('http://localhost:2500/trainer/update/' + id, {

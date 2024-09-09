@@ -30,7 +30,7 @@ export default function Devupdate() {
                 setPassword(items.data.Password)
             })
             .catch(err => console.log(err))
-    }, [])
+    }, [id])
 
     function Edit() {
         axios.put('http://localhost:2500/developer/update/' + id, {
