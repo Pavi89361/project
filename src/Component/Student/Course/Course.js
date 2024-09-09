@@ -1,7 +1,6 @@
 import React from "react";
 import './Course.css';
 import { Link } from "react-router-dom";
-import Pavi from '../../Admin/Pavi.jpg';
 import Html from '../../Main/HTML5_Badge.svg.png';
 import Css from '../../Main/CSS3_logo.svg.png';
 import Bootstrap from '../../Main/bootstrap-logo.png';
